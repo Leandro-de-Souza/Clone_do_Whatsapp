@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Whatsapp Web Clone</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/bf7e05c402.js"></script>
+</head>
+<body>
+	<div class="container">
+		<aside class="sidebar">
+			<div class="toolbar-container">
+				<img class="user-photo" src="img/avatar3.png">
+				<div class="auxicons-toolbar-container">
+					<i class="fas fa-spinner"></i>
+					<i class="fas fa-comment-alt"></i>
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+			</div>
+			<div class="notification-container">
+				<i class="fas fa-bell-slash"></i>
+				<p class="receive-notification">Receba notificações de novas mensagens</p>
+				<p class="activate-notification">Ativar notificações na área de trabalho 
+					<i class="fas fa-angle-right"></i>
+				</p>
+			</div>
+			<div class="search-container">
+				<i id="contact-search" class="fas fa-search"></i>
+				<input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+			</div>
+			<div class="contacts-container">
+				<div class="contact-box active-chat">
+					<img class="user-photo" src="img/avatar1.png">
+					<div class="user-info">
+						<p class="user-name">Peter Parker</p>
+						<p class="user-messagepreview">
+							<i class="fas fa-check-double"></i>Mas por que eu? O jedi da Terra não poderia ser um dos Guardiões da Galáxia?
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">13:50</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<img class="user-photo" src="img/avatar2.png">
+					<div class="user-info">
+						<p class="user-name">Storm Trooper</p>
+						<p class="user-messagepreview">É isso meu avô, quero ser jedi agora.	
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">12:55</p>
+						<p class="message-pending">5</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<img class="user-photo" src="img/avatar4.png">
+					<div class="user-info">
+						<p class="user-name">Tony Stark</p>
+						<p class="user-messagepreview">Como assim os sabres-stark são um plágio?
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">12:30</p>
+						<p class="message-pending">3</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<img class="user-photo" src="img/avatar5.png">
+					<div class="user-info">
+						<p class="user-name">Anakin</p>
+						<p class="user-messagepreview">Não adianta me bloquear, maldito !!!	
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">11:07</p>
+						<p class="message-pending">18</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<img class="user-photo" src="img/avatar7.png">
+					<div class="user-info">
+						<p class="user-name">Rocket Raccoon</p>
+						<p class="user-messagepreview">Mais alto que eu... vai sonhando, Yoda.	
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">10:41</p>
+						<p class="message-pending">7</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<img class="user-photo" src="img/avatar6.png">
+					<div class="user-info">
+						<p class="user-name">Coringa</p>
+						<p class="user-messagepreview">Dunga, Zangado, qual deles é você ? Ah, 
+							é o Mestre HuaHuaHuaHuaHua!	
+						</p>
+					</div>
+					<div class="message-info">
+						<p class="message-time">10:03</p>
+						<p class="message-pending">2</p>
+					</div>
+			    </div>
+		</aside>
+		<main class="chat-container">
+			<nav class="chat-navbar">
+				<div class="contactinfo-container">
+					<img class="user-photo" src="img/avatar1.png">
+					<p class="user-name">Peter Parker</p>
+				</div>
+				<ul class="chattools-container">
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="fas fa-paperclip"></i></li>
+					<li><i class="fas fa-ellipsis-v"></i></li>
+				</ul>
+			</nav>
+			<div class="messages-container">
+				<div class="bg-image"></div>
+				<div class="chat-messages">
+				    <p class="guest-message00">O Han Solo disse, que o Chewbacca disse, que você achou que eu iria jogá-lo pra fora da nave no retorno de Thanus.</p>
+				    <br>
+				    <p class="user-message00">É, meio que me passou pela minha cabeça teiosa. O Chewbacca vai ver só. É mais fofoqueiro que o Groot.</p>
+				    <br><br><br>
+					<p class="guest-message0">Por que você achou que eu queria jogá-lo pra fora da nave quando o conheci, jovem padawan ?</p>
+					<br>
+					<p class="user-message0">É que, tipo: o Hulk, o Duende Verde, skrulls, a Gamora. Todas as pessoas verdes que eu conheço são estressadas.</p>
+					<br><br><br>
+					<p class="guest-message1">Além de ser um fanfarrão, você conhece muitas pessoas verdes, jovem padawan. Que a força esteja com você...</p>	
+					<br>
+					<p class="user-message1">Ah, já que o senhor falou em força, eu sempre quis perguntar isso: O He-Man também é um jedi ? Ele sempre diz que tem a força...</p>
+					<br><br><br>
+					<p class="guest-message2"> Na verdade, ele deveria ser um agente secreto, mas ele sempre fala isso. E, jovem padawan, seu treinamento começará em breve...</p>
+					<br>
+					<p class="user-message2">Mas por que eu ? O jedi da Terra não poderia ser um dos Guardiões da Galáxia ?</p>	
+				</div>
+			</div>
+			<div class="sendmessage-container">
+				<i class="fas fa-grin"></i>
+				<input id="chatmessage" type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
+				<i class="fas fa-microphone"></i>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
